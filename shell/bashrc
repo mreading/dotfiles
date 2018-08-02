@@ -38,6 +38,11 @@ stty -ixon
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+# Directory colorscheme
+export CLICOLOR=1
+export LSCOLORS=exfxfeaeBxxehehbadacea
+alias ls='ls -Gh'
+
 # Keeptrack
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/workspace
