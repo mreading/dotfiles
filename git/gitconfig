@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+    name = mreading
+    email = mreading1998@gmail.com
+[github]
+    user = mreading
+[alias]
+	cm = commit -m
+	redo = commit --amend
+	s = status
+	d = diff

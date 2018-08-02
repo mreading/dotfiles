@@ -1,0 +1,25 @@
+tap "caskroom/cask"
+tap "homebrew/bundle"
+tap "homebrew/core"
+
+# System Utils
+brew "coreutils"
+brew "trash"
+brew "wget"
+brew "cowsay"
+
+# Utils
+cask "basictex"
+
+# Dev
+brew "bash"
+brew "git"
+brew "node"
+brew "vim" args: ["with-override-system-vi"]
+
+# Apps
+cask "google-chrome"
+cask "flux"
+cask "atom"
+cask "iterm2"
+cask "spotify"
