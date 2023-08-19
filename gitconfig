@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+    name = "Matthew Reading"
+    email = ""
+    signingkey = "" 
+[github]
+    user = "mreading"
+[core]
+    editor = "vim"
+[init]
+    defaultBranch = "main"
+[gpg]
+    format = "ssh"
